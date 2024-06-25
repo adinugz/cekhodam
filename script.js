@@ -238,7 +238,7 @@ function generateKhodamDescription(name, khodamName) {
 
   axios
     .post(
-      "https://api.groq.com/openai/v1/chat/completions",
+      "https://rerofya.github.io/cek-khodam/#api",
       {
         messages: [
           {
