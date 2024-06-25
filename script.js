@@ -30,7 +30,8 @@ function generateKhodamName() {
   name = name.charAt(0).toUpperCase() + name.slice(1);
 
   var khodamNames = [
-"Nasi goreng",
+    
+   "Nasi goreng",
 "Hamster kombat",
 "Seblak",
 "Singa putih",
@@ -355,6 +356,7 @@ function generateKhodamName() {
 "Janda bolong",
 "Kominfo",
 "Tni Amerika",
+  
   ];
 
   if (khodamData.hasOwnProperty(name)) {
@@ -434,7 +436,7 @@ function generateKhodamDescription(name, khodamName) {
 
   axios
     .post(
-      "https://rerofya.github.io/cek-khodam/#api",
+      "https://api.groq.com/openai/v1/chat/completions",
       {
         messages: [
           {
