@@ -30,8 +30,7 @@ function generateKhodamName() {
   name = name.charAt(0).toUpperCase() + name.slice(1);
 
   var khodamNames = [
-    
-   "Nasi goreng",
+    "Nasi goreng",
 "Hamster kombat",
 "Seblak",
 "Singa putih",
@@ -103,20 +102,19 @@ function generateKhodamName() {
 "Nasi kuning",
 "Rendang Babi",
 "Iwak",
-"Holan bakri",",
+"Holan bakri",
 "Scam",
 "Munyuk",
 "Informasi palsu",
 "Jawir nih boss",
 "Banjarmasin slowmo",
-"No rispek":
+"No rispek",
 "Emyu",
 "Pergi kau suki",
-"Sunda kontolðŸ˜‚",
 "Professor yakub pencinta bule",
 "Nguawor",
 "Nganggur",
-"Kitab kriptoðŸ˜‚",
+"Kitab kripto",
 "Diskotik bogor",
 "Berteknologi tinggi",
 "Macan Putih",
@@ -145,7 +143,7 @@ function generateKhodamName() {
 "Knalpot Mio",
 "Mie Ayam",
 "Bakso",
-'Bakso Cuanki",
+"Bakso Cuanki",
 "Sumpit Gacoan",
 "Standar Motor",
 "Pala Mio",
@@ -189,7 +187,7 @@ function generateKhodamName() {
 "Ular Sawah",
 "Ubi Cilembu",
 "Pencil 2B",
-'Korek Api",
+"Korek Api",
 "Ukelele",
 "Pecel Lele",
 "Ondel Ondel",
@@ -276,7 +274,7 @@ function generateKhodamName() {
 "Jepit Jemuran",
 "Ikan Sapu Sapu",
 "Royco Sapi",
-""Tahu Gejrot",
+"Tahu Gejrot",
 "Masako Sapi",
 "Royco Ayam",
 "Sayur Lodeh",
@@ -356,7 +354,7 @@ function generateKhodamName() {
 "Janda bolong",
 "Kominfo",
 "Tni Amerika",
-  
+    
   ];
 
   if (khodamData.hasOwnProperty(name)) {
